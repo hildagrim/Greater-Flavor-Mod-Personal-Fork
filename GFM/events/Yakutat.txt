@@ -375,7 +375,7 @@ country_event = {
     picture = "Administration"
     fire_only_once = yes
 	is_triggered_only = yes
-	
+
     option = {
         name = "Great!"
 		TUR = { relation = { who = BZD value = -150 } diplomatic_influence = { who = BZD value = -400 } }
@@ -1067,10 +1067,10 @@ country_event = {
     title = "$FROMCOUNTRY$ Declares War On Us!"
     desc = "MASSINAEPICESCAPE"
     picture = "Toucouleur"
-	
+
     fire_only_once = yes
 	is_triggered_only = yes
-	
+
     option = {
         name = "Leave for the desert."
 		prestige = -5
@@ -1095,10 +1095,10 @@ country_event = {
     title = "$FROMCOUNTRY$ Leaves for the Desert!"
     desc = "$FROMCOUNTRY$ has given us our claimed lands and retreated to the desert..."
     picture = "Toucouleur"
-	
+
     fire_only_once = yes
 	is_triggered_only = yes
-	
+
     option = {
         name = "Perfect..."
 		ai_chance = {
@@ -1145,7 +1145,7 @@ country_event = {
     title = "The Plan of 1854"
     desc = "SIEGEPLANEIGHTEENFIFTYFOUR"
     picture = "eighteenfiftyfour_plan"
-	
+
     fire_only_once = yes
 	is_triggered_only = yes
 
@@ -1594,7 +1594,7 @@ country_event = {
 
     fire_only_once = yes
 	is_triggered_only = yes
-	
+
     option = {
         name = "Long live the Sultan!"
 		OMA = { inherit = MZR }
@@ -1625,7 +1625,7 @@ country_event = {
 
     fire_only_once = yes
 	is_triggered_only = yes
-	
+
     option = {
         name = "Long live the Sultan!"
 		OMA = { release_vassal = ARU }
@@ -1738,7 +1738,7 @@ country_event = {
 		}
 		NOT = { has_global_flag = kanem_bornu_resolved }
     }
-	
+
 	immediate = {
 		set_country_flag = hide_tooltip
 		random_owned = { limit = { owner = {
@@ -1795,7 +1795,7 @@ country_event = {
 		NOT = { year = 1861 }
 		NOT = { has_global_flag = kanem_bornu_resolved }
     }
-	
+
 	immediate = {
 		set_country_flag = hide_tooltip
 		random_owned = { limit = { owner = {
@@ -2720,7 +2720,7 @@ country_event = {
 
     fire_only_once = yes
 	is_triggered_only = yes
-	
+
     option = {
         name = "Cede it for free and do not risk war."
 		FROM = { country_event = 184900525 }
@@ -2755,7 +2755,7 @@ country_event = {
 
     fire_only_once = yes
 	is_triggered_only = yes
-	
+
     option = {
         name = "Great!"
 		relation = {
@@ -2773,7 +2773,7 @@ country_event = {
 
     fire_only_once = yes
 	is_triggered_only = yes
-	
+
     option = {
         name = "We will §Rpay 50,000¤§W!"
 		prestige = -2
@@ -2832,7 +2832,7 @@ country_event = {
 
     fire_only_once = yes
 	is_triggered_only = yes
-	
+
     option = {
         name = "Oh no."
 		prestige = -5
@@ -2847,7 +2847,7 @@ country_event = {
 
     fire_only_once = yes
 	is_triggered_only = yes
-	
+
     option = {
         name = "This is clearly a provocation. §RDeclare war on Usambara§W"
 		prestige = 2
@@ -2928,7 +2928,7 @@ country_event = {
 
     fire_only_once = yes
 	is_triggered_only = yes
-	
+
     option = {
         name = "To war! §R$FROMCOUNTRY$ declares war§W"
 		OMA = { war = {
@@ -2966,7 +2966,7 @@ country_event = {
 
     fire_only_once = yes
 	is_triggered_only = yes
-	
+
     option = {
         name = "Thank you..."
 		WTU = { all_core = { add_core = OMA } }
@@ -3817,7 +3817,7 @@ country_event = {
         name = "Let them come."
 		prestige = -1
 		add_accepted_culture = nguni
-		3899 = { any_pop = { limit = { pop_type = soldiers } move_pop = 3902 } 
+		3899 = { any_pop = { limit = { pop_type = soldiers } move_pop = 3902 }
 			any_pop = { limit = { has_pop_culture = nguni }
 			move_pop = 3902
 		} }
@@ -3937,7 +3937,7 @@ country_event = {
 
     fire_only_once = yes
 	is_triggered_only = yes
-	
+
     option = {
         name = "This can't possibly be good. §RDeclare war on Kara-Kyrgyz§W"
 		prestige = -10
@@ -4062,7 +4062,7 @@ country_event = {
 
     fire_only_once = yes
 	is_triggered_only = yes
-	
+
     option = {
         name = "Well then, it's war! §R$FROMCOUNTRY$ declares war§W"
 		create_alliance = EGY
@@ -4089,7 +4089,7 @@ country_event = {
 
     fire_only_once = yes
 	is_triggered_only = yes
-	
+
     option = {
         name = "This is unacceptable!"
 		prestige = -2
@@ -4105,7 +4105,7 @@ country_event = {
 
     fire_only_once = yes
 	is_triggered_only = yes
-	
+
     option = {
         name = "This is unacceptable!"
 		EGY = {
@@ -4126,7 +4126,7 @@ country_event = {
 	title = "Victory in Nejd!"
 	desc = "INTERVENTIONSEQUEL"
 	picture = "egynejdtribute"
-	
+
 	fire_only_once = yes
 
 	trigger = {
@@ -4137,7 +4137,7 @@ country_event = {
 		HAL = { owns = 1160 }
 		war = no
 	}
-	
+
 	mean_time_to_happen = { days = 1 }
 
     option = {
@@ -4197,7 +4197,7 @@ country_event = {
 	title = "Victory Against Egypt!"
 	desc = "INTERVENTIONSEQUELLESGO"
 	picture = "egynejdtribute"
-	
+
 	fire_only_once = yes
 
 	trigger = {
@@ -4208,7 +4208,7 @@ country_event = {
 		war = no
 		HAL = { vassal_of = NEJ owns = 1160 }
 	}
-	
+
 	mean_time_to_happen = { days = 1 }
 
     option = {
@@ -4250,7 +4250,7 @@ country_event = {
 	title = "The Centralization of al-Mirfa"
 	desc = "ALMIRFA"
 	picture = "khawrodeid"
-	
+
 	fire_only_once = yes
 
 	trigger = {
@@ -4260,7 +4260,7 @@ country_event = {
 		1167 = { empty = yes }
 		NOT = { year = 1840 }
 	}
-	
+
 	mean_time_to_happen = { days = 1 }
 
     option = {
@@ -4288,7 +4288,7 @@ country_event = {
 		OR = { AND = { year = 1874 month = 6 ai = yes } AND = { year = 1870 month = 3 ai = no } civilization_progress = 0.6 }
 		NOT = { year = 1890 }
 	}
-	
+
     option = {
         name = "To war! §RDeclare war on the Imamate§W"
 		release_vassal = IMO
@@ -4314,7 +4314,7 @@ country_event = {
 
     fire_only_once = yes
 	is_triggered_only = yes
-	
+
     option = {
         name = "This isn't fair! §RDeclare war on the British§W"
 		random_owned = {
@@ -4386,7 +4386,7 @@ country_event = {
 	mean_time_to_happen = { days = 1 }
 
 	immediate = { 3852 = { add_core = LIB } 3853 = { add_core = LIB } }
-	
+
     option = {
         name = "Force the Mende to accept the treaty."
 		prestige = 5
@@ -4430,7 +4430,7 @@ country_event = {
     picture = "usa_boat_shelled"
     fire_only_once = yes
 	is_triggered_only = yes
-	
+
     option = {
         name = "This isn't a fair treaty!"
 		prestige = 5
@@ -4469,11 +4469,11 @@ country_event = {
 		NOT = { has_global_flag = colonial_railroading_disabled }
 		NOT = { has_global_flag = youdiditliberiaseir }
 	}
-	
+
 	immediate = { set_global_flag = youdiditliberiaseir }
 
 	mean_time_to_happen = { days = 6 }
-	
+
     option = {
         name = "The current border is fine. §GLose 1 infamy§W"
 		prestige = 1
@@ -4521,11 +4521,11 @@ country_event = {
 		NOT = { has_global_flag = colonial_railroading_disabled }
 		NOT = { has_global_flag = youdiditliberiaseir }
 	}
-	
+
 	immediate = { set_global_flag = youdiditliberiaseir }
-	
+
 	mean_time_to_happen = { days = 6 }
-	
+
     option = {
         name = "The current border is fine. §GLose 0.5 infamy§W"
 		prestige = 1
@@ -4557,7 +4557,7 @@ country_event = {
     picture = "sierraleonemap"
     fire_only_once = yes
 	is_triggered_only = yes
-	
+
     option = {
         name = "The current border is fine. §RGain 1 infamy§W"
 		prestige = 2
@@ -4582,7 +4582,7 @@ country_event = {
     picture = "sierraleonemap"
     fire_only_once = yes
 	is_triggered_only = yes
-	
+
     option = {
         name = "The current border is fine. §RGain 2 infamy§W"
 		prestige = 4
@@ -4607,7 +4607,7 @@ country_event = {
     picture = "sierraleonemap"
     fire_only_once = yes
 	is_triggered_only = yes
-	
+
     option = {
         name = "The current border is fine. §RGain 3 infamy§W"
 		prestige = 5
@@ -4615,7 +4615,7 @@ country_event = {
 		ENG = { country_event = 184823989 set_country_flag = no_capemount diplomatic_influence = { who = LIB value = -300 } relation = { who = LIB value = -300 } }
 		ai_chance = { factor = 0 }
     }
-	
+
     option = {
         name = "Cede Pujehun, Kailahan and Cape Mount. §GLose 3 infamy§W"
 		prestige = -4
@@ -4632,7 +4632,7 @@ country_event = {
     picture = "sierraleonemap"
     fire_only_once = yes
 	is_triggered_only = yes
-	
+
     option = {
         name = "Perfect!"
 		prestige = 2
@@ -4682,7 +4682,7 @@ country_event = {
     picture = "sierraleonemap"
     fire_only_once = yes
 	is_triggered_only = yes
-	
+
     option = {
         name = "This will be resolved in battle. §RGain 3 infamy§!"
 		prestige = 3
@@ -5144,7 +5144,7 @@ country_event = {
 	}
 
 	mean_time_to_happen = { days = 5 }
-	
+
     option = {
         name = "Launch the Jihad! §RDeclare war on Ekiti§W"
 		war = {
@@ -5186,7 +5186,7 @@ country_event = {
 		DZD = { exists = no OR = { government = prov_gov_liberal government = prov_gov_conservative } }
 		NOT = { has_global_flag = SOUSWINS }
 	}
-	
+
     option = {
         name = "Great!"
 		prestige = 3
@@ -5304,9 +5304,9 @@ country_event = {
 		NOT = { has_global_flag = SOUSWINS }
 		NOT = { year = 1850 }
 	}
-	
+
 	immediate = { release_vassal = DZD set_global_flag = sussy_revolution }
-	
+
     option = {
         name = "Stop them right there! §RDeclare war on Tadla§W"
 		release_vassal = DZD
@@ -5413,9 +5413,9 @@ country_event = {
 		NOT = { has_global_flag = SOUSWINS }
 		NOT = { year = 1857 }
 	}
-	
+
 	immediate = { set_global_flag = sussy_revolution }
-	
+
     option = {
         name = "Stop them right there! §RDeclare war on Zaër§W"
 		release_vassal = DZD
@@ -5521,9 +5521,9 @@ country_event = {
 		NOT = { civilized = yes }
 		NOT = { year = 1863 }
 	}
-	
+
 	immediate = { set_global_flag = sussy_revolution }
-	
+
     option = {
         name = "Stop them right there! §RDeclare war on Tadla§W"
 		release_vassal = DZD
@@ -5628,9 +5628,9 @@ country_event = {
 		NOT = { civilized = yes }
 		NOT = { year = 1867 }
 	}
-	
+
 	immediate = { set_global_flag = sussy_revolution }
-	
+
     option = {
         name = "Stop them right there! §RDeclare war on Tadla§W"
 		release_vassal = DZD
@@ -5713,7 +5713,7 @@ country_event = {
     title = "Partition Egba?"
     desc = "EGBAPARTITIONNGR"
     picture = "egba_dahomey"
-	
+
 	fire_only_once = yes
 	is_triggered_only = yes
 
@@ -5745,7 +5745,7 @@ country_event = {
     title = "Ijebu Rejects Joining the War!"
     desc = "Ijebu has rejected to partition Egba, claiming Abeokuta doesn't deserve any acts of aggresion, and recognizing Egba territorial integrity."
     picture = "egba_dahomey"
-	
+
 	fire_only_once = yes
 	is_triggered_only = yes
 
@@ -5773,7 +5773,7 @@ country_event = {
     title = "Partition Succeeds"
     desc = "We have successfully conquered Egba and now will partition it with Ijebu."
     picture = "egba_dahomey"
-	
+
 	fire_only_once = yes
 
     trigger = {
@@ -5811,7 +5811,7 @@ country_event = {
     title = "Dahomey and Ijebu Try to Partition Us!"
     desc = "EGBAPARTITIONEGBA"
     picture = "egba_dahomey"
-	
+
 	fire_only_once = yes
 	is_triggered_only = yes
 
@@ -5832,7 +5832,7 @@ country_event = {
     title = "Dahomey and Ijebu Try to Partition Yorubaland"
     desc = "EGBAPARTITIONENG"
     picture = "egba_dahomey"
-	
+
 	fire_only_once = yes
 	is_triggered_only = yes
 
@@ -5858,7 +5858,7 @@ country_event = {
     title = "The British Send an Ultimatum"
     desc = "EGBAULTIMATUM"
     picture = "egba_dahomey"
-	
+
 	fire_only_once = yes
 	is_triggered_only = yes
 
@@ -5885,7 +5885,7 @@ country_event = {
     title = "Dahomey Accepts the Ultimatum!"
     desc = "EGBAULTIMATUMENGSUCCEED"
     picture = "dahomey_blockade"
-	
+
 	fire_only_once = yes
 	is_triggered_only = yes
 
@@ -5901,7 +5901,7 @@ country_event = {
     title = "Dahomey Accepts a British Ultimatum!"
     desc = "EGBAULTIMATUMEGBASUCCEED"
     picture = "dahomey_blockade"
-	
+
 	fire_only_once = yes
 	is_triggered_only = yes
 
@@ -5916,7 +5916,7 @@ country_event = {
     title = "Dahomey Accepts a British Ultimatum!"
     desc = "EGBAULTIMATUMNGRSUCCEED"
     picture = "dahomey_blockade"
-	
+
 	fire_only_once = yes
 	is_triggered_only = yes
 
@@ -5931,10 +5931,10 @@ country_event = {
     title = "Dahomey Rejects Our Ultimatum!"
     desc = "EGBAULTIMATUMENGREJECT"
     picture = "egba_dahomey"
-	
+
 	fire_only_once = yes
 	is_triggered_only = yes
-	
+
     option = {
         name = "Blockade them."
 		prestige = 2
@@ -5964,7 +5964,7 @@ country_event = {
     title = "The British Do Not Intervene!"
     desc = "The British have decided not to intervene after the Dahomey rejected to act upon their ultimatums."
     picture = "dahomey_blockade"
-	
+
 	fire_only_once = yes
 	is_triggered_only = yes
 
@@ -5979,7 +5979,7 @@ country_event = {
     title = "The British Do Not Intervene!"
     desc = "The British have decided not to intervene after we rejected to act upon their ultimatums."
     picture = "dahomey_blockade"
-	
+
 	fire_only_once = yes
 	is_triggered_only = yes
 
@@ -5994,7 +5994,7 @@ country_event = {
     title = "DAHOMEYBLOCKADETITLE"
     desc = "DAHOMEYBLOCKADEDESC"
     picture = "dahomey_blockade"
-	
+
 	fire_only_once = yes
 	is_triggered_only = yes
 
@@ -6026,7 +6026,7 @@ country_event = {
     title = "Dahomey Ignores Our Blockade!"
     desc = "The Dahomey have decided not to respond on the issue of our blockade on Ouidah."
     picture = "dahomey_blockade"
-	
+
 	fire_only_once = yes
 	is_triggered_only = yes
 
@@ -6118,7 +6118,7 @@ country_event = {
     title = "The Netherlands Agree!"
     desc = "The Netherlands have given us arms in exchange for troops from our allies in Ho to build a local Dutch regiment."
     picture = "dahomey_blockade"
-	
+
 	fire_only_once = yes
 	is_triggered_only = yes
 
@@ -6140,7 +6140,7 @@ country_event = {
     title = "The Netherlands Refuse!"
     desc = "The Netherlands have refused to give us arms in exchange for troops to build a local Dutch regiment."
     picture = "dahomey_blockade"
-	
+
 	fire_only_once = yes
 	is_triggered_only = yes
 
@@ -6168,15 +6168,15 @@ country_event = {
 		NGO = { add_accepted_culture = chewa }
 		CLN = { primary_culture = nguni country_event = 184824171 }
 		any_pop = { limit = { type = soldiers } reduce_pop = 0.8 }
-		capital_scope = { 
+		capital_scope = {
 				sub_unit = { type = irregular value = current }
 				sub_unit = { type = irregular value = current }
 				sub_unit = { type = cavalry value = current }
 		}
-		MRW = { capital_scope = { 
+		MRW = { capital_scope = {
 				sub_unit = { type = irregular value = current }
 				sub_unit = { type = cavalry value = current }
-		} any_pop = { limit = { type = soldiers } reduce_pop = 1.3 } 
+		} any_pop = { limit = { type = soldiers } reduce_pop = 1.3 }
         }
 		military_reform = yes_army_schools
         activate_technology = army_command_principle
@@ -6191,7 +6191,7 @@ country_event = {
     title = "Moving Pops..."
     desc = "."
     picture = "dahomey_blockade"
-	
+
 	fire_only_once = yes
 	is_triggered_only = yes
 
@@ -6249,7 +6249,7 @@ country_event = {
 			add_accepted_culture = nguni
 			remove_accepted_culture = georgian
 			remove_accepted_culture = greek
-			capital_scope = { 
+			capital_scope = {
 					sub_unit = { type = irregular value = current }
 					sub_unit = { type = irregular value = current }
 					sub_unit = { type = cavalry value = current }
@@ -6290,7 +6290,7 @@ country_event = {
 			add_accepted_culture = nguni
 			remove_accepted_culture = georgian
 			remove_accepted_culture = greek
-			capital_scope = { 
+			capital_scope = {
 					sub_unit = { type = irregular value = current }
 					sub_unit = { type = irregular value = current }
 					sub_unit = { type = cavalry value = current }
@@ -6312,7 +6312,7 @@ country_event = {
     title = "Moving Pops..."
     desc = "."
     picture = "dahomey_blockade"
-	
+
 	fire_only_once = yes
 	is_triggered_only = yes
 
@@ -6328,7 +6328,7 @@ country_event = {
     title = "Reject British Protection?"
     desc = "The British are letting us be 'sovereign', but their influence is notorious. Should we kick them out?"
     picture = "dahomey_blockade"
-	
+
 	fire_only_once = yes
 	is_triggered_only = yes
 
@@ -6349,7 +6349,7 @@ country_event = {
     title = "Winburg Rejects Our Influence!"
     desc = "We were letting Winburg be sovereign, but they have rejected our protection and expulsed all British officers. Should we bring them back with Albion?"
     picture = "dahomey_blockade"
-	
+
 	fire_only_once = yes
 	is_triggered_only = yes
 
@@ -6381,7 +6381,7 @@ country_event = {
     title = "Reject British Protection?"
     desc = "The British are letting us be 'sovereign', but their influence is notorious. Should we kick them out?"
     picture = "dahomey_blockade"
-	
+
 	fire_only_once = yes
 	is_triggered_only = yes
 
@@ -6414,7 +6414,7 @@ country_event = {
     title = "Potchefstroom Rejects Our Influence!"
     desc = "We were letting Potchefstroom be sovereign, but they have rejected our protection and expulsed all British officers. Should we bring them back with Albion?"
     picture = "dahomey_blockade"
-	
+
 	fire_only_once = yes
 	is_triggered_only = yes
 
@@ -6615,7 +6615,7 @@ country_event = {
     desc = "EVTDESC3171811"
     picture = "french_revolution_1848"
 	major = yes
-	
+
     fire_only_once = yes
 
     trigger = {
@@ -10115,7 +10115,7 @@ country_event = {
     id = 16121918
     title = "The Eureka Rebellion"
     desc = "EUREKAREBELS"
-	
+
     picture = "eureka_rebellion"
     fire_only_once = yes
 
@@ -15078,7 +15078,7 @@ country_event = {
 	title = "EVTNAME95250" #The White Rajah
 	desc = "EVTDESC95250"
 	picture = "white_rajah"
-	
+
 	fire_only_once = yes
 
 	trigger = {
@@ -17181,7 +17181,7 @@ country_event = {
 }
 
 country_event = {
-    id = 18482242
+    id = 1848S
     title = "Lili Elbe"
     desc = "LILIELBE"
     picture = "lili"
@@ -20441,7 +20441,7 @@ country_event = {
 				MLN = { any_owned = { secede_province = EGY } }
 				TSI = { any_owned = { secede_province = EGY } }
 				BNB = { any_owned = { secede_province = EGY } }
-				
+
 		random_owned = {
 			limit = {
 				owner = { IRQ = { exists = yes } }
@@ -20669,7 +20669,7 @@ country_event = {
 							}
 						}
 						secede_province = EGY
-					} 
+					}
 				}
 			}
 		}
@@ -23463,7 +23463,7 @@ country_event = {
     picture = "dimawe_battle"
 	fire_only_once = yes
 	is_triggered_only = yes
-	
+
 	immediate = {
 		random_owned = {
 			limit = { owner = {
@@ -23471,7 +23471,7 @@ country_event = {
 				3969 = { owner = { primary_culture = boer tag = THIS } }
 			} }
 			owner = {
-				2074 = { add_core = THIS secede_province = THIS } 
+				2074 = { add_core = THIS secede_province = THIS }
 			}
 		}
 		random_owned = {
@@ -23514,7 +23514,7 @@ country_event = {
     picture = "dimawe_battle"
 	fire_only_once = yes
 	is_triggered_only = yes
-	
+
     option = {
 		name = "Great!"
 		prestige = 2
@@ -23682,7 +23682,7 @@ country_event = {
     fire_only_once = yes
     picture = "1905_arg_revolucion"
     mean_time_to_happen = { days = 1 }
-	
+
     trigger = {
         year = 1905
         owns = 2348
@@ -25938,7 +25938,7 @@ country_event = {
 
     fire_only_once = yes
 	is_triggered_only = yes
-	
+
 	option = {
         name = "TURKSEXPULSEDOPT"
         795 = {
@@ -26092,7 +26092,7 @@ country_event = {
     title = "La Vergonha"
     desc = "VERGONHADESC"
     picture = "vergonha"
-	
+
 	fire_only_once = yes
 	major = yes
 
@@ -26101,7 +26101,7 @@ country_event = {
 		owns = 425
 		has_country_flag = enacted_french_schooling
 	}
-	
+
 	mean_time_to_happen = { days = 25 }
 
     option = {
@@ -26115,7 +26115,7 @@ country_event = {
     title = "The Sonderbund Wins!"
     desc = "After winning the Sonderbund War, we can now establish our rule under Switzerland!"
     picture = "geltwil"
-	
+
 	fire_only_once = yes
 	is_triggered_only = yes
 
@@ -26139,7 +26139,7 @@ country_event = {
 			name = neutrality_modifier
 			duration = -1
 		}
-		PRU = { 
+		PRU = {
 			diplomatic_influence = {
 				who = NCT
 				value = 400
@@ -26161,7 +26161,7 @@ country_event = {
     title = "s!"
     desc = "s!"
     picture = "geltwil"
-	
+
 	fire_only_once = yes
 	is_triggered_only = yes
     option = {
@@ -26284,7 +26284,7 @@ country_event = {
     title = "Victory Against Matamba"
     desc = "We have finally defeated Matamba, forcing them to become our vassal."
     picture = "angola_fix"
-	
+
 	fire_only_once = yes
 	mean_time_to_happen = { days = 1 }
 
@@ -26338,7 +26338,7 @@ country_event = {
     title = "Victory Against Kassanje"
     desc = "We have finally defeated Kassanje, forcing them to become our vassal."
     picture = "angola_fix"
-	
+
 	fire_only_once = yes
 	mean_time_to_happen = { days = 1 }
 
@@ -26368,7 +26368,7 @@ country_event = {
     title = "The Annexation of Our Angolan Allies"
     desc = "After some years of domination, we can now formally annex our vassals in Angola."
     picture = "angola_fix"
-	
+
 	fire_only_once = yes
 	mean_time_to_happen = { days = 6 }
 
@@ -26393,7 +26393,7 @@ country_event = {
     title = "$FROMCOUNTRY$ cedes us Mitembie"
     desc = "After some negotiations on $FROMCOUNTRY$'s borders, we have acquired Mitembie."
     picture = "danishgovernment"
-	
+
 	fire_only_once = yes
 	is_triggered_only = yes
 
@@ -26466,7 +26466,7 @@ country_event = {
     title = "Spain Gets Treaties with Local Chiefs!"
     desc = "The Spaniards have gotten treaties with local coastal chiefs which have rendered us a vassal of the Spanish."
     picture = "danishgovernment"
-	
+
 	fire_only_once = yes
 	is_triggered_only = yes
 
@@ -26517,7 +26517,7 @@ country_event = {
     title = "Ally Segu against Jallon?!"
     desc = "The Segu are in a campaign to end all Fula jihads, and they have asked us forr an alliance. Should we join?"
     picture = "jallon_map"
-	
+
 	fire_only_once = yes
 	is_triggered_only = yes
 
@@ -26542,7 +26542,7 @@ country_event = {
     title = "Gabu Rejects Our Alliance Offer"
     desc = "Gabu has rejected fighting against the jihad."
     picture = "jallon_map"
-	
+
 	fire_only_once = yes
 	is_triggered_only = yes
 
@@ -26559,7 +26559,7 @@ country_event = {
     title = "Gabu Accepts Our Alliance Offer"
     desc = "Gabu has accepted fighting against the jihad."
     picture = "jallon_map"
-	
+
 	fire_only_once = yes
 	is_triggered_only = yes
 
@@ -26585,7 +26585,7 @@ country_event = {
     title = "A Coalition is Created Against Us!"
     desc = "Segu and Gabu have united against us to end our Jihad."
     picture = "jallon_map"
-	
+
 	fire_only_once = yes
 	is_triggered_only = yes
 
@@ -26621,7 +26621,7 @@ country_event = {
     title = "Form a Jihadi Coalition?"
     desc = "Segu and Gabu have united against Jallon to end our Jihad. Must we help them?"
     picture = "jallon_map"
-	
+
 	is_triggered_only = yes
 	allow_multiple_instances = yes
 
@@ -26647,7 +26647,7 @@ country_event = {
     title = "$FROMCOUNTRY$ Joins Us!"
     desc = "$FROMCOUNTRY$ has agreed to join us in our jihad."
     picture = "jallon_map"
-	
+
 	is_triggered_only = yes
 	allow_multiple_instances = yes
 
@@ -26725,7 +26725,7 @@ country_event = {
     title = "Adamawa Leaves Us!"
     desc = "$FROMCOUNTRY$ has decided to wait for the Mahdi alone."
     picture = "adamawa_map"
-	
+
 	is_triggered_only = yes
 	allow_multiple_instances = yes
 
@@ -26818,7 +26818,7 @@ country_event = {
     title = "Gwandu Leaves Us!"
     desc = "$FROMCOUNTRY$ has decided to sail the Niger river alone."
     picture = "adamawa_map"
-	
+
 	is_triggered_only = yes
 	allow_multiple_instances = yes
 
@@ -26853,7 +26853,7 @@ country_event = {
     title = "The Emirate Mechanic"
     desc = "EMIRATEMECHANIC"
     picture = "adamawa_map"
-	
+
 	is_triggered_only = yes
 	allow_multiple_instances = yes
 
@@ -26884,7 +26884,7 @@ country_event = {
     title = "The Loose Confederation Mechanic"
     desc = "CONFEDERATIONHELLP"
     picture = "Administration"
-	
+
 	is_triggered_only = yes
 	allow_multiple_instances = yes
 
@@ -27189,7 +27189,7 @@ country_event = {
     title = "The Affiliated State Mechanic"
     desc = "MANDARAMECHANIC"
     picture = "adamawa_map"
-	
+
 	is_triggered_only = yes
 	allow_multiple_instances = yes
 
@@ -27248,7 +27248,7 @@ country_event = {
     title = "Mandara Leaves Us!"
     desc = "Mandara has decided to declare independence from us based upon their new-found military self-reliance."
     picture = "adamawa_map"
-	
+
 	is_triggered_only = yes
 	allow_multiple_instances = yes
 
@@ -27275,7 +27275,7 @@ country_event = {
     title = "The Alfonso XIII Award"
     desc = "YOULOSTTRUJILLO"
     picture = "uca_event"
-	
+
 	is_triggered_only = yes
 
     option = {
@@ -27310,7 +27310,7 @@ country_event = {
     title = "TRUJILLOWHATTITLE"
     desc = "TRUJILLOWHATDESC"
     picture = "uca_event"
-	
+
 	is_triggered_only = yes
 
     option = {
@@ -27353,7 +27353,7 @@ country_event = {
     title = "The Cañas–Jerez Treaty"
     desc = "YOULOSTNICOYA"
     picture = "uca_event"
-	
+
 	is_triggered_only = yes
 
     option = {
@@ -27384,7 +27384,7 @@ country_event = {
     title = "NICOYAWHATTITLE"
     desc = "NICOYAWHATDESC"
     picture = "uca_event"
-	
+
 	is_triggered_only = yes
 
     option = {
@@ -27414,7 +27414,7 @@ country_event = {
     title = "The Hughes Award"
     desc = "ARBITRATEHUGHESQUESTION"
     picture = "hughes_award"
-	
+
 	is_triggered_only = yes
 
     option = {
@@ -27446,7 +27446,7 @@ country_event = {
     title = "The Hughes Award"
     desc = "HUGHESAWARDUSA"
     picture = "hughes_award"
-	
+
 	is_triggered_only = yes
 
     option = {
@@ -27472,7 +27472,7 @@ country_event = {
 			}
 		}
 	}
-	
+
     option = {
         name = "Favor Honduras."
 		HON = { country_event = 184824383 }
@@ -27516,7 +27516,7 @@ country_event = {
     title = "$FROMCOUNTRY$ Favors Us"
     desc = "The $FROMCOUNTRY_ADJ$ have favored us in the arbitration."
     picture = "hughes_award"
-	
+
 	is_triggered_only = yes
 
     option = {
@@ -27533,7 +27533,7 @@ country_event = {
     title = "$FROMCOUNTRY$ Favors Guatemala"
     desc = "The Americans have favored Guatemala in the arbitration. Should we accept?"
     picture = "hughes_award"
-	
+
 	is_triggered_only = yes
 
     option = {
@@ -27586,7 +27586,7 @@ country_event = {
     title = "$FROMCOUNTRY$ Favors Honduras"
     desc = "The Americans have favored Honduras in the arbitration. Should we accept?"
     picture = "hughes_award"
-	
+
 	is_triggered_only = yes
 
     option = {
@@ -27639,7 +27639,7 @@ country_event = {
     title = "$FROMCOUNTRY$ Determines a Compromise"
     desc = "Guatemala will conserve an Atlantic Coast and stop claiming any Honduran territory. Do we accept?"
     picture = "hughes_award"
-	
+
 	is_triggered_only = yes
 	allow_multiple_instances = yes
 
@@ -27709,7 +27709,7 @@ country_event = {
     title = "$FROMCOUNTRY$ Refuses Border Arbitration"
     desc = "The $FROMCOUNTRY_ADJ$ have refused to settle our border in the name of democracy."
     picture = "uca_event"
-	
+
 	is_triggered_only = yes
 
     option = {
@@ -27811,7 +27811,7 @@ country_event = {
 
 	mean_time_to_happen = { days = 1 }
 
-	immediate = { 
+	immediate = {
 		set_global_flag = sokoto_will_die
 	}
 
@@ -27837,7 +27837,7 @@ country_event = {
     title = "Sokoto Recognizes Us As An Autonomous Emirate"
     desc = "The Caliphate has made us more autonomous and now we may declare our own jihads."
     picture = "2nd_sokoto_caliph"
-	
+
 	is_triggered_only = yes
 
     option = {
@@ -27855,7 +27855,7 @@ country_event = {
     title = "Sokoto Hardens Its Stance on Fombina"
     desc = "The Caliphate has made us less autonomous."
     picture = "2nd_sokoto_caliph"
-	
+
 	is_triggered_only = yes
 
     option = {
@@ -27930,7 +27930,7 @@ country_event = {
     title = "Sokoto Recognizes Tibati"
     desc = "The Caliphate has made Tibati an autonomous Emirate not of us, but of themselves. We should act against this."
     picture = "2nd_sokoto_caliph"
-	
+
 	is_triggered_only = yes
 
     option = {
@@ -27956,7 +27956,7 @@ country_event = {
     title = "Adamawa Revolts Against Us"
     desc = "Adamawa has revolted against Atiku's decision of releasing Tibati from us."
     picture = "2nd_sokoto_caliph"
-	
+
 	is_triggered_only = yes
 
     option = {
@@ -27978,7 +27978,7 @@ country_event = {
     title = "Atiku Forces Tibati to Return Its Flag"
     desc = "Atiku has reverted its decision and would let us return to the Sokoto Caliphate as an Autonomous Emirate."
     picture = "2nd_sokoto_caliph"
-	
+
 	is_triggered_only = yes
 
     option = {
@@ -28003,7 +28003,7 @@ country_event = {
     title = "Adamawa Stops Its Revolt"
     desc = "Adamawa has stopped revolting against Atiku's decision of releasing Tibati and him having been wounded in a battle."
     picture = "2nd_sokoto_caliph"
-	
+
 	is_triggered_only = yes
 
     option = {
@@ -28035,7 +28035,7 @@ country_event = {
 	}
 
 	mean_time_to_happen = { days = 3 }
-	
+
 	immediate = { set_global_flag = sokotodied clr_global_flag = sokoto_will_die }
 
     option = {
@@ -28096,7 +28096,7 @@ country_event = {
 	}
 
 	mean_time_to_happen = { days = 1 }
-	
+
     option = {
 		name = "Return it to an Autonomous Emirate."
 		clr_global_flag = gwandu_left_us
@@ -28105,7 +28105,7 @@ country_event = {
 		KEB = { add_country_modifier = {
 			name = puppet_gwandu duration = -1
 		} }
-		KEB = { any_owned = { limit = { NOT = { province_id = 1946 province_id = 3761 } } secede_province = THIS } } 
+		KEB = { any_owned = { limit = { NOT = { province_id = 1946 province_id = 3761 } } secede_province = THIS } }
 		any_owned = { limit = { OR = { province_id = 1946 province_id = 3761 } } secede_province = KEB }
 		ai_chance = {
 			factor = 1
@@ -28115,7 +28115,7 @@ country_event = {
 		name = "Make it our vassal."
 		3761 = { add_core = SOK }
 		1946 = { add_core = SOK }
-		KEB = { any_owned = { limit = { NOT = { province_id = 1946 province_id = 3761 } } secede_province = THIS } } 
+		KEB = { any_owned = { limit = { NOT = { province_id = 1946 province_id = 3761 } } secede_province = THIS } }
 		any_owned = { limit = { OR = { province_id = 1946 province_id = 3761 } } secede_province = KEB }
 		ai_chance = {
 			factor = 1
@@ -28124,7 +28124,7 @@ country_event = {
     option = {
 		name = "Annex it. §RGain 3 infamy§W"
 		badboy = 3
-		KEB = { any_owned = { limit = { NOT = { province_id = 1946 province_id = 3761 } } secede_province = THIS } } 
+		KEB = { any_owned = { limit = { NOT = { province_id = 1946 province_id = 3761 } } secede_province = THIS } }
 		inherit = KEB
 		inherit = KEB
 		3761 = { add_core = SOK }
@@ -28208,7 +28208,7 @@ country_event = {
 	}
 
 	mean_time_to_happen = { days = 1 }
-	
+
 	immediate = {
 		any_owned = {
 			limit = {
@@ -28254,7 +28254,7 @@ country_event = {
     title = "Hadejia Revolts and Joins Us"
     desc = "HADEJIAWHY"
     picture = "adamawa_map"
-	
+
 	is_triggered_only = yes
 
     option = {
@@ -28270,7 +28270,7 @@ country_event = {
     title = "Hadejia Joins Us, Sokoto Suggests a Treaty"
     desc = "HADEJIAWHYWHY"
     picture = "adamawa_map"
-	
+
 	is_triggered_only = yes
 
     option = {
@@ -28308,7 +28308,7 @@ country_event = {
     title = "Bornu Suggests a Partition"
     desc = "Bornu has suggested ceding Gashua in return for Azare, and stopping all border disputes."
     picture = "adamawa_map"
-	
+
 	is_triggered_only = yes
 
     option = {
@@ -28380,7 +28380,7 @@ country_event = {
 		ZOU = { vassal_of = ENG }
 		NOT = { year = 1887 }
 	}
-	
+
 	mean_time_to_happen = { days = 1 }
 
     option = {
@@ -28442,7 +28442,7 @@ country_event = {
 		owns = 2057
 		NOT = { year = 1834 }
 	}
-	
+
 	mean_time_to_happen = { days = 1 }
 
     option = {
@@ -28470,7 +28470,7 @@ country_event = {
     title = "The Ngoni Declare War!"
     desc = "The Ngoni have launched war onto our borderlands to form their own empire in our place. If we win, we'll be able to force them out."
     picture = "zulu"
-	
+
 	is_triggered_only = yes
 
     option = {
@@ -28496,7 +28496,7 @@ country_event = {
 		GAZ = { exists = no }
 		NOT = { year = 1837 }
 	}
-	
+
 	mean_time_to_happen = { days = 1 }
 
     option = {
@@ -28532,7 +28532,7 @@ country_event = {
 		NGO = { is_disarmed = yes }
 		NOT = { year = 1838 }
 	}
-	
+
 	mean_time_to_happen = { days = 1 }
 
     option = {
@@ -28551,7 +28551,7 @@ country_event = {
     title = "The Gaza Declare Victory!"
     desc = "We have been disarmed by the Gaza Empire, and we now should move away to Maravi, where we could form our state."
     picture = "soshangane"
-	
+
 	is_triggered_only = yes
 
     option = {
@@ -28579,7 +28579,7 @@ country_event = {
     title = "The Ngoni Annex Maano!"
     desc = "The Ngoni have fled from their lands in Zulu for now decades, and they have lost a war in Gaza. Now, they have moved here."
     picture = "soshangane"
-	
+
 	is_triggered_only = yes
 
     option = {
@@ -28636,7 +28636,7 @@ country_event = {
     title = "Truce with the Ngoni Ends"
     desc = "The Ngoni have lived in lands which are ours for now 3 years, and we should move them out."
     picture = "zulu"
-	
+
 	is_triggered_only = yes
 
     option = {
@@ -28663,7 +28663,7 @@ country_event = {
     title = "Truce with the $FROMCOUNTRY_ADJ$ Ends"
     desc = "The $FROMCOUNTRY_ADJ$ have attacked us from the other side of the Zambezi and forced us out."
     picture = "soshangane"
-	
+
 	is_triggered_only = yes
 
     option = {
@@ -28861,7 +28861,7 @@ country_event = {
 		month = 1
 		NOT = { year = 1839 }
 	}
-	
+
 	mean_time_to_happen = { days = 1 }
 
     option = {
@@ -28898,9 +28898,9 @@ country_event = {
     title = "The Gaza Send An Ultimatum"
     desc = "The Gaza have sent us an ultimatum declaring the Middle Zambezi and Prazos part of their Empire. Should we comply?"
     picture = "soshangane"
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		release_vassal = MOZ
 		set_global_flag = prazos_get_bombed
@@ -28920,7 +28920,7 @@ country_event = {
 			factor = 1
 		}
 	}
-	
+
     option = {
         name = "Don't you dare."
 		prestige = 5
@@ -28935,7 +28935,7 @@ country_event = {
     title = "The Portuguese Accept the Ultimatum"
     desc = "The Portuguese have agreed to an ultimatum declaring the Middle Zambezi and Prazos part of our empire."
     picture = "soshangane"
-	
+
 	is_triggered_only = yes
 
     option = {
@@ -28948,7 +28948,7 @@ country_event = {
     title = "The Portuguese Decline the Ultimatum"
     desc = "The Portuguese have refused an ultimatum declaring the Middle Zambezi and Prazos part of our empire."
     picture = "soshangane"
-	
+
 	is_triggered_only = yes
 
     option = {
@@ -29158,7 +29158,7 @@ country_event = {
     title = "The Chikunda in Maravi Annex Songo"
     desc = "The Maravi have been taken over by Chikunda warriors, and have laid claim to Songo. Should we give in?"
     picture = "chikunda"
-	
+
 	is_triggered_only = yes
 
     option = {
@@ -29187,7 +29187,7 @@ country_event = {
     title = "The Tswana Migrations"
     desc = "The Tswana, in spite of heightened tensions with the arrival of the Boers and Nguni raids, have started migrating westwards."
     picture = "makololo"
-	
+
 	fire_only_once = yes
 	major = yes
 
@@ -29199,7 +29199,7 @@ country_event = {
 		2107 = { NOT = { owner = { primary_culture = tswana } owner = { accepted_culture = khoisan } } }
 		2101 = { NOT = { owner = { primary_culture = tswana }  owner = { accepted_culture = khoisan } } }
 	}
-	
+
 	mean_time_to_happen = { days = 1 }
 
     option = {
@@ -29718,7 +29718,7 @@ country_event = {
     picture = "Administration"
     fire_only_once = yes
 	is_triggered_only = yes
-	
+
     option = {
         name = "Great!"
 		TUR = { relation = { who = MLN value = -150 } diplomatic_influence = { who = MLN value = -400 } }
@@ -29729,7 +29729,7 @@ country_event = {
     title = "Moving Pops..."
     desc = "."
     picture = "dahomey_blockade"
-	
+
 	fire_only_once = yes
 	is_triggered_only = yes
 
@@ -29883,7 +29883,7 @@ country_event = {
     picture = "Administration"
     fire_only_once = yes
 	is_triggered_only = yes
-	
+
     option = {
         name = "Great!"
 		TUR = { relation = { who = RDL value = -150 } diplomatic_influence = { who = RDL value = -400 } }
@@ -29894,7 +29894,7 @@ country_event = {
     title = "Moving Pops..."
     desc = "."
     picture = "dahomey_blockade"
-	
+
 	fire_only_once = yes
 	is_triggered_only = yes
 
@@ -29941,7 +29941,7 @@ country_event = {
 			}
 			reduce_pop = 40
 		} }
-		
+
     }
 
 }
@@ -29950,7 +29950,7 @@ country_event = {
     title = "The Makololo Conquest of the baTawana"
     desc = "The Makololo are launching raids against our state to create a new state. Should we surrender?"
     picture = "makololo"
-	
+
 	fire_only_once = yes
 	is_triggered_only = yes
 
@@ -30047,7 +30047,7 @@ country_event = {
     desc = "$FROMCOUNTRY$ has accepted to become our protectorate."
     picture = "amatonga_map"
 	fire_only_once = yes
-	
+
 	is_triggered_only = yes
 
     option = {
@@ -30231,7 +30231,7 @@ country_event = {
 			move_pop = 3722
 		} }
 		3722 = { secede_province = THIS }
-		
+
 		2013 = { any_pop = {
 			limit = {
 				has_pop_culture = luvale
@@ -30245,7 +30245,7 @@ country_event = {
 				pop_type = artisans
 			}
 			pop_type = farmers
-		} }		
+		} }
 		2013 = { secede_province = CLN }
 		2013 = { any_pop = {
 			limit = {
@@ -30274,7 +30274,7 @@ country_event = {
 			move_pop = 3722
 		} }
 		3722 = { secede_province = THIS }
-		
+
 		2013 = { any_pop = {
 			limit = {
 				has_pop_culture = botatwe
@@ -30289,7 +30289,7 @@ country_event = {
 			}
 			pop_type = farmers
 		} }
-		
+
 		2081 = { any_pop = {
 			limit = {
 				has_pop_culture = botatwe
@@ -30406,7 +30406,7 @@ country_event = {
     title = "The Makololo Invade Us"
     desc = "The Makololo have started raiding our south and want to claim our throne."
     picture = "dahomey_blockade"
-	
+
 	fire_only_once = yes
 	is_triggered_only = yes
 
@@ -30707,7 +30707,7 @@ country_event = {
     title = "We Lost Against the Khojas"
     desc = "After our defeat in Xinjiang we have been forced to accept their demands."
     picture = "qihezhuo_rebellion"
-	
+
 	fire_only_once = yes
 	is_triggered_only = yes
 
@@ -30755,7 +30755,7 @@ country_event = {
     title = "The End Of The Fulani Jihad"
     desc = "After our defeat in Sokoto we have been forced to accept their demands."
     picture = "sokoto_oyo_surrender"
-	
+
 	fire_only_once = yes
 	is_triggered_only = yes
 
@@ -30889,7 +30889,7 @@ country_event = {
     }
 
     mean_time_to_happen = { days = 1 }
-	
+
 	immediate = { CYR = { government = absolute_monarchy } }
 
     option = {
@@ -32382,7 +32382,7 @@ country_event = {
 				}
 			}
 			secede_province = SUD
-		
+
 		}
 		FROM = { country_event = 184824885 }
         ai_chance = { factor = 0.4 }
@@ -33271,7 +33271,7 @@ country_event = {
     picture = "dervishes"
 
     is_triggered_only = yes
-	
+
     option = {
         name = "Great!"
 		end_war = FROM
@@ -33310,7 +33310,7 @@ country_event = {
     picture = "dervishes"
 
     is_triggered_only = yes
-	
+
     option = {
         name = "To war! §RDeclare war on the Dervish§W"
 		set_country_flag = you_went_to_dervish_ethiopia
@@ -33583,7 +33583,7 @@ country_event = {
     picture = "dervishes"
 
     is_triggered_only = yes
-	
+
     option = {
         name = "To war! §RDeclare war on the Dervish§W"
 		set_country_flag = you_went_to_dervish_ethiopia
@@ -33930,7 +33930,7 @@ country_event = {
     picture = "dervishes"
 
     is_triggered_only = yes
-	
+
     option = {
         name = "Great!"
 		end_war = FROM
@@ -34173,7 +34173,7 @@ country_event = {
     }
 
     mean_time_to_happen = { days = 1 }
-	
+
 	immediate = { set_global_flag = tripoli_lost }
 
     option = {
@@ -34261,7 +34261,7 @@ country_event = {
     }
 
     mean_time_to_happen = { days = 1 }
-	
+
     option = {
         name = "To war! §RDeclare war on Tripoli§W"
 		prestige = 5
@@ -34329,7 +34329,7 @@ country_event = {
     }
 
     mean_time_to_happen = { days = 1 }
-	
+
     option = {
         name = "To war! §RDeclare war on Tripoli§W"
 		set_global_flag = last_stand
@@ -34438,7 +34438,7 @@ country_event = {
     title = "Ilorin Leaves Us!"
     desc = "$FROMCOUNTRY$ has decided to wait for the Mahdi alone."
     picture = "adamawa_map"
-	
+
 	is_triggered_only = yes
 	allow_multiple_instances = yes
 
@@ -34473,7 +34473,7 @@ country_event = {
     title = "The Senussi's Expansion to Siwa"
     desc = "The Senussi have conquered the Oasis of Siwa, effectively annexing it from our local rulers."
     picture = "senussi_on_the_march"
-	
+
 	is_triggered_only = yes
 
     option = {
@@ -34517,9 +34517,9 @@ country_event = {
     }
 
     mean_time_to_happen = { days = 1 }
-	
+
 	immediate = { set_country_flag = senussi_insanity }
-	
+
     option = {
         name = "To war! §RDeclare war on Senussi§W"
 		prestige = 2
@@ -34595,7 +34595,7 @@ country_event = {
     }
 
     mean_time_to_happen = { days = 1 }
-		
+
     option = {
         name = "To war! §RDeclare war on Senussi§W"
 		prestige = 2
@@ -34680,9 +34680,9 @@ country_event = {
     }
 
     mean_time_to_happen = { days = 1 }
-	
+
 	immediate = { 1758 = { add_core = EGY } }
-		
+
     option = {
         name = "To war! §RDeclare war on Senussi§W"
 		prestige = 2
@@ -34778,7 +34778,7 @@ country_event = {
     }
 
     mean_time_to_happen = { days = 1 }
-		
+
     option = {
         name = "To war! §RDeclare war on Senussi§W"
 		prestige = 2
@@ -36005,7 +36005,7 @@ country_event = {
     desc = "The $FROMCOUNTRY_ADJ$ have launched a campaign to conquer Barbara and sieged the city. Should we cede it to them?"
     picture = "somaliland_border"
     is_triggered_only = yes
-	
+
 	immediate = {
 		3967 = { secede_province = FROM }
 	}
@@ -36195,7 +36195,7 @@ country_event = {
     picture = "Administration"
     fire_only_once = yes
 	is_triggered_only = yes
-	
+
     option = {
         name = "Great!"
 		TUR = { relation = { who = TSI value = -150 } diplomatic_influence = { who = TSI value = -400 } }
@@ -36816,7 +36816,7 @@ country_event = {
     }
 
     mean_time_to_happen = { days = 1 }
-	
+
     option = {
         name = "Concede."
 		prestige = -10
@@ -36925,11 +36925,11 @@ country_event = {
     }
 
     mean_time_to_happen = { days = 1 }
-	
+
 	immediate = {
 		release_vassal = SER
 	}
-	
+
     option = {
         name = "We must concede."
 		SER = { country_event = 184825261 }
@@ -37044,7 +37044,7 @@ country_event = {
     }
 
     mean_time_to_happen = { days = 1 }
-		
+
     option = {
         name = "We have no choice."
 		set_global_flag = hatt_i_sharif_1833
@@ -37107,7 +37107,7 @@ country_event = {
     picture = "yao_slave"
 
     fire_only_once = yes
-	
+
     trigger = {
 		year = 1853
 		owns = 3699
@@ -37237,7 +37237,7 @@ country_event = {
     picture = "eritrea_map"
 
     fire_only_once = yes
-	
+
     trigger = {
 		owns = 1851
 		has_country_flag = sale_of_assab
@@ -37286,7 +37286,7 @@ country_event = {
     picture = "eritrea_map"
     fire_only_once = yes
 	is_triggered_only = yes
-	
+
     option = {
         name = "We have to stop these treacherous acts. §RDeclare war on $FROMCOUNTRY$§W"
         casus_belli = {
@@ -37336,13 +37336,13 @@ country_event = {
     desc = "MASSAWAFROMUNCIV"
     picture = "eritrea_map"
     fire_only_once = yes
-	
+
     trigger = {
 		owns = 1851
 		has_country_flag = sale_of_assab
 		1849 = { owner = { civilized = no NOT = { tag = SUD } } }
     }
-	
+
     option = {
         name = "We must protect Massawa."
 		1849 = { owner = { country_event = 184825291 } }
@@ -37384,13 +37384,13 @@ country_event = {
     desc = "MASSAWAFROMCIV"
     picture = "eritrea_map"
     fire_only_once = yes
-	
+
     trigger = {
 		owns = 1851
 		has_country_flag = sale_of_assab
 		1849 = { owner = { civilized = yes NOT = { tag = SUD } NOT = { tag = THIS } } }
     }
-	
+
     option = {
         name = "We must protect Massawa."
 		1849 = { owner = { country_event = 184825311 } }
@@ -37411,7 +37411,7 @@ country_event = {
     picture = "eritrea_map"
     fire_only_once = yes
 	is_triggered_only = yes
-	
+
     option = {
         name = "We agree."
 		any_owned = { limit = {
@@ -37431,7 +37431,7 @@ country_event = {
             value = 150
         }
 		random_owned = { limit = { owner = { NOT = { owns = 1875 owns = 3870 owns = 1874 owns = 3706 owns = 3958 owns = 3820 owns = 3937 owns = 3594 owns = 3951 owns = 1859 owns = 1853 owns = 1857 owns = 1856 } } }
-		owner = { 
+		owner = {
 		any_owned = { limit = {
 			OR = {
 				province_id = 3953
@@ -37450,7 +37450,7 @@ country_event = {
 			add_core = HAR
 		} } }
 		random_owned = { limit = { owner = { NOT = { owns = 1875 owns = 3590 owns = 1861 owns = 3591 owns = 1859 owns = 1853 owns = 1857 owns = 1856 } } }
-		owner = { 
+		owner = {
 		any_owned = { limit = {
 			OR = {
 				province_id = 3953
@@ -37462,7 +37462,7 @@ country_event = {
 		}
 		} }
 		random_owned = { limit = { owner = { NOT = { owns = 3937 owns = 3820 owns = 3706 owns = 3958 owns = 3870 owns = 1865 owns = 3951 owns = 1866 owns = 3594 } } }
-		owner = { 
+		owner = {
 		any_owned = { limit = {
 			OR = {
 				province_id = 1861
@@ -37497,7 +37497,7 @@ country_event = {
     picture = "mahdist_rule"
     fire_only_once = yes
 	is_triggered_only = yes
-	
+
     option = {
         name = "They will pay for this!"
 	    relation = {
@@ -37532,11 +37532,11 @@ country_event = {
 		set_country_flag = hide_tooltip
 		random_owned = { limit = { owner = {
 		has_country_flag = hide_tooltip
-		}} owner = { 
+		}} owner = {
 		3593 = { trade_goods = gold } } }
 		clr_country_flag = hide_tooltip
 	}
-	
+
     option = {
         name = "Annex the Gumuz, do not break up Ethiopia. §RGain 4 infamy§W"
 		badboy = 4
@@ -37552,7 +37552,7 @@ country_event = {
 			factor = 4
 		}
     }
-	
+
     option = {
         name = "Annex the Gumuz and Gonder. §RGain 7.5 infamy§W"
 		badboy = 7.5
@@ -37691,7 +37691,7 @@ country_event = {
 				country_event = 184825326
 			}
 		}
-		
+
         ai_chance = {
 			factor = 0.3
             modifier = { factor = 0 badboy = 11.5 }
@@ -37822,7 +37822,7 @@ country_event = {
 				country_event = 184825325
 			}
 		}
-		
+
         ai_chance = {
 			factor = 0.15
             modifier = { factor = 0 badboy = 9 }
@@ -37928,7 +37928,7 @@ country_event = {
 				country_event = 184825321
 			}
 		}
-		
+
         ai_chance = {
 			factor = 0.1
             modifier = { factor = 0 badboy = 7 }
@@ -38020,7 +38020,7 @@ country_event = {
 				country_event = 184825321
 			}
 		}
-		
+
         ai_chance = {
 			factor = 0.08
             modifier = { factor = 0 badboy = 5 }
@@ -38116,11 +38116,11 @@ country_event = {
 		set_country_flag = hide_tooltip
 		random_owned = { limit = { owner = {
 		has_country_flag = hide_tooltip
-		}} owner = { 
+		}} owner = {
 		3593 = { trade_goods = gold } } }
 		clr_country_flag = hide_tooltip
 	}
-	
+
     option = {
         name = "Annex the Gumuz, do not break up Ethiopia. §RGain 4 infamy§W"
 		badboy = 4
@@ -38136,7 +38136,7 @@ country_event = {
 			factor = 4
 		}
     }
-	
+
     option = {
         name = "Annex the Gumuz and Gonder. §RGain 7.5 infamy§W"
 		random_owned = { limit = { owner = {
@@ -38249,7 +38249,7 @@ country_event = {
 				country_event = 184825326
 			}
 		}
-		
+
         ai_chance = {
 			factor = 0.15
             modifier = { factor = 0 badboy = 11.5 }
@@ -38354,7 +38354,7 @@ country_event = {
 				country_event = 184825325
 			}
 		}
-		
+
         ai_chance = {
 			factor = 0.1
             modifier = { factor = 0 badboy = 9 }
@@ -38435,7 +38435,7 @@ country_event = {
 				}
 			}
 		}
-		
+
         ai_chance = {
 			factor = 0.09
             modifier = { factor = 0 badboy = 7 }
@@ -38516,7 +38516,7 @@ country_event = {
     picture = "peace_egyeth"
     fire_only_once = yes
 	is_triggered_only = yes
-	
+
     option = {
         name = "Let them be independent... §GLose 1 infamy§W"
 		prestige = -3
@@ -38536,7 +38536,7 @@ country_event = {
     picture = "peace_egyeth"
     fire_only_once = yes
 	is_triggered_only = yes
-	
+
     option = {
         name = "Let them be independent... §GLose 1 infamy§W"
 		prestige = -3
@@ -38556,7 +38556,7 @@ country_event = {
     picture = "peace_egyeth"
     fire_only_once = yes
 	is_triggered_only = yes
-	
+
     option = {
         name = "Let them be independent... §GLose 1 infamy§W"
 		prestige = -3
@@ -38576,7 +38576,7 @@ country_event = {
     picture = "peace_egyeth"
     fire_only_once = yes
 	is_triggered_only = yes
-	
+
     option = {
         name = "Let them be independent... §GLose 1 infamy§W"
 		prestige = -3
@@ -38596,7 +38596,7 @@ country_event = {
     picture = "peace_egyeth"
     fire_only_once = yes
 	is_triggered_only = yes
-	
+
     option = {
         name = "Let them be independent... §GLose 1 infamy§W"
 		prestige = -3
@@ -38616,7 +38616,7 @@ country_event = {
     picture = "peace_egyeth"
     fire_only_once = yes
 	is_triggered_only = yes
-	
+
     option = {
         name = "yes, it is"
 		random_owned = {
@@ -38659,7 +38659,7 @@ country_event = {
     picture = "peace_egyeth"
     fire_only_once = yes
 	is_triggered_only = yes
-	
+
     option = {
         name = "You're welcome."
 		treasury = 10
@@ -38674,12 +38674,12 @@ country_event = {
     picture = "peace_egyeth"
     fire_only_once = yes
 	is_triggered_only = yes
-	
+
 	immediate = {
 		set_country_flag = hide_tooltip
 		random_owned = { limit = { owner = {
 		has_country_flag = hide_tooltip
-		}} owner = { 
+		}} owner = {
 		any_country = {
 			limit = {
 				has_country_flag = lost_egyptian_ethiopian2_cb
@@ -38688,7 +38688,7 @@ country_event = {
 		} } }
 		clr_country_flag = hide_tooltip
 	}
-	
+
     option = {
         name = "Annex Fazoghli and Massawa."
 		prestige = 15
@@ -38706,14 +38706,14 @@ country_event = {
 						province_id = 3696
 						province_id = 1850
 						province_id = 1849
-						
+
 						province_id = 1851
 						province_id = 1875
 						province_id = 3870
 						province_id = 1874
 						province_id = 3820
 						province_id = 3967
-						
+
 						province_id = 3377
 						province_id = 3596
 					}
@@ -38730,7 +38730,7 @@ country_event = {
 		3696 = { add_core = THIS }
 		1850 = { add_core = THIS }
 		1849 = { add_core = THIS }
-		
+
 		3377 = { add_core = THIS }
 		3697 = { add_core = THIS }
 		3596 = { add_core = THIS }
@@ -38757,14 +38757,14 @@ country_event = {
 						province_id = 3696
 						province_id = 1850
 						province_id = 1849
-						
+
 						province_id = 1851
 						province_id = 1875
 						province_id = 3870
 						province_id = 1874
 						province_id = 3820
 						province_id = 3967
-						
+
 						province_id = 3377
 						province_id = 3596
 					}
@@ -38781,10 +38781,10 @@ country_event = {
 		3696 = { add_core = THIS }
 		1850 = { add_core = THIS }
 		1849 = { add_core = THIS }
-		
+
 		3377 = { add_core = THIS }
 		3596 = { add_core = THIS }
-		
+
 		random_owned = {
 			limit = {
 				owner = {
@@ -38958,14 +38958,14 @@ country_event = {
 						province_id = 3696
 						province_id = 1850
 						province_id = 1849
-						
+
 						province_id = 1851
 						province_id = 1875
 						province_id = 3870
 						province_id = 1874
 						province_id = 3820
 						province_id = 3967
-						
+
 						province_id = 3377
 						province_id = 3596
 					}
@@ -38982,10 +38982,10 @@ country_event = {
 		3696 = { add_core = THIS }
 		1850 = { add_core = THIS }
 		1849 = { add_core = THIS }
-		
+
 		3377 = { add_core = THIS }
 		3596 = { add_core = THIS }
-		
+
 		random_owned = {
 			limit = {
 				owner = {
@@ -39226,14 +39226,14 @@ country_event = {
 						province_id = 3696
 						province_id = 1850
 						province_id = 1849
-						
+
 						province_id = 1851
 						province_id = 1875
 						province_id = 3870
 						province_id = 1874
 						province_id = 3820
 						province_id = 3967
-						
+
 						province_id = 3377
 						province_id = 3596
 					}
@@ -39250,10 +39250,10 @@ country_event = {
 		3696 = { add_core = THIS }
 		1850 = { add_core = THIS }
 		1849 = { add_core = THIS }
-		
+
 		3377 = { add_core = THIS }
 		3596 = { add_core = THIS }
-		
+
 		random_owned = {
 			limit = {
 				owner = {
@@ -39423,7 +39423,7 @@ country_event = {
 								province_id = 3695
 								province_id = 1828
 								province_id = 1836
-								
+
 								province_id = 3701
 								province_id = 3699
 								province_id = 1827
@@ -39470,7 +39470,7 @@ country_event = {
 								province_id = 3695
 								province_id = 1828
 								province_id = 1836
-								
+
 								province_id = 3701
 								province_id = 3699
 								province_id = 1827
@@ -39510,17 +39510,17 @@ country_event = {
 						province_id = 3696
 						province_id = 1850
 						province_id = 1849
-						
+
 						province_id = 1851
 						province_id = 1875
 						province_id = 3870
 						province_id = 1874
 						province_id = 3820
 						province_id = 3967
-						
+
 						province_id = 3377
 						province_id = 3596
-						
+
 						province_id = 3698
 						province_id = 1829
 						province_id = 1830
@@ -39541,10 +39541,10 @@ country_event = {
 		3696 = { add_core = THIS }
 		1850 = { add_core = THIS }
 		1849 = { add_core = THIS }
-		
+
 		3377 = { add_core = THIS }
 		3596 = { add_core = THIS }
-		
+
 		random_owned = {
 			limit = {
 				owner = {
@@ -39707,7 +39707,7 @@ country_event = {
 					limit = { has_country_flag = lost_egyptian_ethiopian2_cb }
 					any_owned = {
 						limit = {
-							OR = {							
+							OR = {
 								province_id = 3701
 								province_id = 3699
 								province_id = 1827
@@ -39747,7 +39747,7 @@ country_event = {
 					limit = { has_country_flag = lost_egyptian_ethiopian2_cb }
 					any_owned = {
 						limit = {
-							OR = {								
+							OR = {
 								province_id = 3701
 								province_id = 3699
 								province_id = 1827
@@ -39787,24 +39787,24 @@ country_event = {
 						province_id = 3696
 						province_id = 1850
 						province_id = 1849
-						
+
 						province_id = 1851
 						province_id = 1875
 						province_id = 3870
 						province_id = 1874
 						province_id = 3820
 						province_id = 3967
-						
+
 						province_id = 3377
 						province_id = 3596
-						
+
 						province_id = 3698
 						province_id = 1829
 						province_id = 1830
 						province_id = 3695
 						province_id = 1828
 						province_id = 1836
-						
+
 						province_id = 3700
 						province_id = 1832
 						province_id = 1840
@@ -39831,10 +39831,10 @@ country_event = {
 		3696 = { add_core = THIS }
 		1850 = { add_core = THIS }
 		1849 = { add_core = THIS }
-		
+
 		3377 = { add_core = THIS }
 		3596 = { add_core = THIS }
-		
+
 		random_owned = {
 			limit = {
 				owner = {
@@ -39918,7 +39918,7 @@ country_event = {
 					limit = { has_country_flag = lost_egyptian_ethiopian2_cb }
 					any_owned = {
 						limit = {
-							OR = {							
+							OR = {
 								province_id = 3701
 								province_id = 3699
 								province_id = 1827
@@ -39958,7 +39958,7 @@ country_event = {
 					limit = { has_country_flag = lost_egyptian_ethiopian2_cb }
 					any_owned = {
 						limit = {
-							OR = {								
+							OR = {
 								province_id = 3701
 								province_id = 3699
 								province_id = 1827
@@ -40163,7 +40163,7 @@ country_event = {
     }
 
     mean_time_to_happen = { days = 1 }
-	
+
 	immediate = { set_global_flag = diakhou }
 
     option = {
@@ -40312,7 +40312,7 @@ country_event = {
     picture = "Administration"
     fire_only_once = yes
 	is_triggered_only = yes
-	
+
     option = {
         name = "Great!"
 		TUR = { relation = { who = BTL value = -150 } diplomatic_influence = { who = BTL value = -400 } }
@@ -40338,7 +40338,7 @@ country_event = {
     }
 
     mean_time_to_happen = { days = 1 }
-	
+
 	immediate = { set_global_flag = diakhou }
 
     option = {
@@ -40378,7 +40378,7 @@ country_event = {
     picture = "marabouts"
     fire_only_once = yes
 	is_triggered_only = yes
-	
+
     option = {
         name = "For the Jihad!"
 		treasury = 500
@@ -40398,7 +40398,7 @@ country_event = {
     picture = "marabouts"
     fire_only_once = yes
 	is_triggered_only = yes
-	
+
     option = {
         name = "For the Jihad!"
 		religion = sunni
@@ -40432,7 +40432,7 @@ country_event = {
     picture = "marabouts"
     fire_only_once = yes
 	is_triggered_only = yes
-	
+
     option = {
         name = "For the Jihad!"
 		prestige = 2
@@ -40449,7 +40449,7 @@ country_event = {
     picture = "marabouts"
     fire_only_once = yes
 	is_triggered_only = yes
-	
+
     option = {
         name = "We must conquer them. For the Jihad! §RDeclare war on Wolof§W"
 		prestige = 3
@@ -40472,7 +40472,7 @@ country_event = {
     picture = "marabouts"
     fire_only_once = yes
 	is_triggered_only = yes
-	
+
     option = {
         name = "For the Jihad!"
 		religion = sunni
@@ -40506,7 +40506,7 @@ country_event = {
     picture = "marabouts"
     fire_only_once = yes
 	is_triggered_only = yes
-	
+
     option = {
         name = "For the Jihad!"
 		prestige = 2
@@ -40523,7 +40523,7 @@ country_event = {
     picture = "marabouts"
     fire_only_once = yes
 	is_triggered_only = yes
-	
+
     option = {
         name = "We must conquer them. For the Jihad! §RDeclare war on Saloum§W"
 		prestige = 3
@@ -40546,7 +40546,7 @@ country_event = {
     picture = "marabouts"
     fire_only_once = yes
 	is_triggered_only = yes
-	
+
     option = {
         name = "For the Jihad!"
 		religion = sunni
@@ -40580,7 +40580,7 @@ country_event = {
     picture = "marabouts"
     fire_only_once = yes
 	is_triggered_only = yes
-	
+
     option = {
         name = "For the Jihad!"
 		prestige = 2
@@ -40597,7 +40597,7 @@ country_event = {
     picture = "marabouts"
     fire_only_once = yes
 	is_triggered_only = yes
-	
+
     option = {
         name = "We must conquer them. For the Jihad! §RDeclare war on Sine§W"
 		prestige = 3
@@ -40620,11 +40620,11 @@ country_event = {
     picture = "marabouts"
     fire_only_once = yes
 	is_triggered_only = yes
-	
+
     option = {
         name = "Great."
 		prestige = 3
-		1860 = { add_core = ETH secede_province = THIS any_pop = { literacy = -0.99 } life_rating = 21 } 
+		1860 = { add_core = ETH secede_province = THIS any_pop = { literacy = -0.99 } life_rating = 21 }
         ai_chance = { factor = 1 }
     }
 }
@@ -40682,7 +40682,7 @@ country_event = {
     picture = "borgu_map"
     fire_only_once = yes
 	is_triggered_only = yes
-	
+
     option = {
         name = "For the Jihad!"
 		FROM = { country_event = 184825392 }
@@ -40691,7 +40691,7 @@ country_event = {
 		any_pop = { limit = { has_pop_religion = fetishist } militancy = 6 consciousness = 8 }
 		any_pop = { limit = { has_pop_religion = sunni } militancy = -8 consciousness = -8 }
         ai_chance = { factor = 1 }
-    }	
+    }
     option = {
         name = "They can't just force us?!"
 		FROM = { country_event = 184825393 }
@@ -40705,7 +40705,7 @@ country_event = {
     picture = "borgu_map"
     fire_only_once = yes
 	is_triggered_only = yes
-	
+
     option = {
         name = "Great!"
         ai_chance = { factor = 1 }
@@ -40718,7 +40718,7 @@ country_event = {
     picture = "borgu_map"
     fire_only_once = yes
 	is_triggered_only = yes
-	
+
     option = {
         name = "The only way is to Jihad! §RGain 2 infamy§W"
 		prestige = 5
@@ -40744,7 +40744,7 @@ country_event = {
     picture = "borgu_map"
     fire_only_once = yes
 	is_triggered_only = yes
-	
+
     option = {
         name = "There is nothing we can do..."
 		prestige = -2
@@ -40758,7 +40758,7 @@ country_event = {
     picture = "tadla_map"
     fire_only_once = yes
 	is_triggered_only = yes
-	
+
     option = {
         name = "There is nothing we can do..."
 		prestige = -2
@@ -40782,7 +40782,7 @@ country_event = {
     picture = "tadla_map"
     fire_only_once = yes
 	is_triggered_only = yes
-	
+
     option = {
         name = "Damn."
 		prestige = -2
@@ -40847,7 +40847,7 @@ country_event = {
     }
 
     mean_time_to_happen = { days = 1 }
-	
+
     option = {
         name = "Blockade the Isaaq until they surrender the assailants."
 		prestige = 1
@@ -40889,7 +40889,7 @@ country_event = {
     picture = "burton_isaaq"
     fire_only_once = yes
 	is_triggered_only = yes
-	
+
     option = {
         name = "We will let the blockade finish."
 		prestige = 5
@@ -40909,7 +40909,7 @@ country_event = {
     picture = "barbara_somalia"
     fire_only_once = yes
 	is_triggered_only = yes
-	
+
     option = {
         name = "Great."
 		prestige = 2
@@ -40939,7 +40939,7 @@ country_event = {
     picture = "kongo_city"
     fire_only_once = yes
 	is_triggered_only = yes
-	
+
     option = {
         name = "We cannot act."
 		prestige = -5
@@ -40967,7 +40967,7 @@ country_event = {
     picture = "kongo_city"
     fire_only_once = yes
 	is_triggered_only = yes
-	
+
     option = {
         name = "We cannot afford a war. Ambriz is theirs."
 		prestige = -5
@@ -40997,7 +40997,7 @@ country_event = {
     picture = "kongo_city"
     fire_only_once = yes
 	is_triggered_only = yes
-	
+
     option = {
         name = "Great."
 		prestige = 5
@@ -41012,7 +41012,7 @@ country_event = {
     picture = "kongo_city"
     fire_only_once = yes
 	is_triggered_only = yes
-	
+
     option = {
         name = "War it is! §RDeclare war on $FROMCOUNTRY$§W"
 		prestige = 6
@@ -41054,7 +41054,7 @@ country_event = {
     }
 
     mean_time_to_happen = { days = 1 }
-	
+
     option = {
         name = "Great."
 		prestige = 2
@@ -41072,7 +41072,7 @@ country_event = {
     picture = "kongo_city"
     fire_only_once = yes
 	is_triggered_only = yes
-	
+
     option = {
         name = "We must help Pedro V! §RDeclare war on $FROMCOUNTRY$§W"
 		prestige = 6
@@ -41114,7 +41114,7 @@ country_event = {
     }
 
     mean_time_to_happen = { days = 1 }
-	
+
     option = {
         name = "We need to end the Kongo Kingdom's autonomy! §RDeclare war on Kongo§W"
 		prestige = 2
@@ -41173,7 +41173,7 @@ country_event = {
     picture = "kongo_city"
     fire_only_once = yes
 	is_triggered_only = yes
-	
+
     option = {
         name = "Oh no."
 		prestige = -1
@@ -41187,7 +41187,7 @@ country_event = {
     picture = "kongo_city"
     fire_only_once = yes
 	is_triggered_only = yes
-	
+
     option = {
         name = "Oh no."
         ai_chance = { factor = 1 }
@@ -41200,7 +41200,7 @@ country_event = {
     picture = "kongo_city"
     fire_only_once = yes
 	is_triggered_only = yes
-	
+
     option = {
         name = "Great!"
 		prestige = 5
@@ -41214,7 +41214,7 @@ country_event = {
     picture = "zanzinterior_map"
     fire_only_once = yes
 	is_triggered_only = yes
-	
+
     option = {
         name = "Oh no. §R$FROMCOUNTRY$ declares war§W"
 		prestige = 5
@@ -41496,14 +41496,14 @@ country_event = {
     }
 
     mean_time_to_happen = { days = 10 }
-	
+
 	immediate = {
 		set_country_flag = hide_tooltip
 		random_owned = { limit = { owner = { has_country_flag = hide_tooltip NOT = { month = 6 } } }
 			owner = {
 				government = prov_gov_conservative
 				TUR = {
-					release_vassal = TRI 
+					release_vassal = TRI
 					release_vassal = CYR
 					diplomatic_influence = { who = TRI value = -300 }
 					diplomatic_influence = { who = CYR value = -300 }
@@ -41549,7 +41549,7 @@ country_event = {
 					}
 				}
 				TUR = {
-					release_vassal = TRI 
+					release_vassal = TRI
 					release_vassal = CYR
 				}
 				CYR = { war = {
@@ -41565,7 +41565,7 @@ country_event = {
 			owner = {
 				government = prov_gov_conservative
 				TUR = {
-					release_vassal = TRI 
+					release_vassal = TRI
 					release_vassal = CYR
 					diplomatic_influence = { who = TRI value = -300 }
 					diplomatic_influence = { who = CYR value = -300 }
@@ -41611,7 +41611,7 @@ country_event = {
 					}
 				}
 				TUR = {
-					release_vassal = TRI 
+					release_vassal = TRI
 					release_vassal = CYR
 				}
 				CYR = { war = {
@@ -41625,7 +41625,7 @@ country_event = {
 		}
 		clr_country_flag = hide_tooltip
 	}
-			
+
 
     option = {
         name = "For the Karamanli's new king! §BPlay as Ali II§W"
@@ -41926,7 +41926,7 @@ country_event = {
     }
 
     mean_time_to_happen = { days = 1 }
-	
+
     option = {
         name = "We hope this is our last civil war..."
 		CYR = { all_core = { remove_core = CYR } }
@@ -42086,7 +42086,7 @@ country_event = {
 		}
     }
 
-    mean_time_to_happen = { days = 1 }			
+    mean_time_to_happen = { days = 1 }
 
     option = {
         name = "Demand that they leave!"
@@ -42574,7 +42574,7 @@ country_event = {
 		set_global_flag = yesturyestur
 		clr_country_flag = hide_tooltip
 	}
-	
+
     option = {
         name = "Goal achieved."
 		prestige = 4
@@ -42582,7 +42582,7 @@ country_event = {
 			factor = 1
 		}
     }
-	
+
     option = {
         name = "'Ask' Algeria to accept our rule. §RGain 4 infamy§W"
 		prestige = 8
@@ -42614,7 +42614,7 @@ country_event = {
     picture = "algeria_map"
     is_triggered_only = yes
 
-	
+
     option = {
         name = "We cannot resist."
 		FROM = { create_vassal = THIS }
@@ -42622,7 +42622,7 @@ country_event = {
 			factor = 0.3
 		}
     }
-	
+
     option = {
         name = "We will never again bow down to the Turks!"
 		prestige = 5
@@ -42639,7 +42639,7 @@ country_event = {
     picture = "algeria_map"
     is_triggered_only = yes
 
-	
+
     option = {
         name = "We cannot declare war."
 		prestige = -2
@@ -42647,7 +42647,7 @@ country_event = {
 			factor = 0
 		}
     }
-	
+
     option = {
         name = "Launch the invasion at once!"
 		prestige = 5
@@ -42679,7 +42679,7 @@ country_event = {
     }
 
     mean_time_to_happen = { days = 1 }
-	
+
     option = {
         name = "Create a sole Algerian possession."
 		random_owned = {
@@ -42857,7 +42857,7 @@ country_event = {
 		NOT = { year = 1853 }
     }
 
-    mean_time_to_happen = { days = 1 }			
+    mean_time_to_happen = { days = 1 }
 
     option = {
         name = "Well, I guess we lost."
@@ -43154,7 +43154,7 @@ country_event = {
     desc = "The Ottomans have asked us to cede Tripoli back, as as a vassal they cannot free themselves and give up their territory."
     picture = "senussi_map"
     is_triggered_only = yes
-	
+
 	immediate = {
 		set_country_flag = hide_tooltip
 		random_owned = {
@@ -43258,7 +43258,7 @@ country_event = {
 					}
 					3394 = { secede_province = THIS any_pop = { literacy = -0.99 } }
 				}
-				
+
 				random_owned = {
 					limit = {
 						owner = {
@@ -43325,7 +43325,7 @@ country_event = {
     desc = "$FROMCOUNTRY$ have asked us to cede Tunis back, as as a vassal they cannot free themselves and give up their territory."
     picture = "senussi_map"
     is_triggered_only = yes
-	
+
 	immediate = {
 		set_country_flag = hide_tooltip
 		random_owned = {
@@ -43943,7 +43943,7 @@ country_event = {
     }
 
     mean_time_to_happen = { days = 10 }
-	
+
 	immediate = { set_global_flag = famine_sudan }
 
     option = {
@@ -44607,7 +44607,7 @@ country_event = {
 
     fire_only_once = yes
 	is_triggered_only = yes
-	
+
 	immediate = {
 		2112 = { add_core = ZUL }
 	}
@@ -44762,7 +44762,7 @@ country_event = {
 	}
 
 	mean_time_to_happen = { days = 1 }
-	
+
 	immediate = { set_global_flag = transvaal_civil_war }
 
     option = {
@@ -44831,7 +44831,7 @@ country_event = {
 	}
 
 	mean_time_to_happen = { days = 1 }
-	
+
 	immediate = {
 		set_global_flag = transvaal_civil_war
 		set_global_flag = transvaal_civil_warcores
@@ -45236,7 +45236,7 @@ country_event = {
 	}
 
 	mean_time_to_happen = { days = 1 }
-	
+
 	immediate = {
 		set_global_flag = transvaal_civil_war
 	}
@@ -45666,7 +45666,7 @@ country_event = {
     picture = "lydenburg_event"
 	fire_only_once = yes
 	is_triggered_only = yes
-	
+
 	immediate = { FROM = { set_country_flag = maymoneyreturn } }
 
     option = {
@@ -45696,7 +45696,7 @@ country_event = {
     picture = "lydenburg_event"
 	fire_only_once = yes
 	is_triggered_only = yes
-	
+
 	immediate = {
 		random_owned = {
 			limit = {
@@ -46633,7 +46633,7 @@ country_event = {
 		NOT = { year = 1849 }
 		NOT = { has_global_flag = zanzibarrevolt }
 	}
-	
+
 	immediate = { set_global_flag = zanzibarrevolt }
 
 	mean_time_to_happen = { days = 6 }
@@ -46731,7 +46731,7 @@ country_event = {
 		NOT = { year = 1849 }
 		NOT = { has_global_flag = zanzibarrevolt }
 	}
-	
+
 	immediate = { set_global_flag = zanzibarrevolt }
 
 	mean_time_to_happen = { days = 6 }
@@ -46841,7 +46841,7 @@ country_event = {
 	}
 
 	mean_time_to_happen = { days = 1 }
-	
+
 	immediate = {
 		random_owned = {
 			limit = {
@@ -47226,7 +47226,7 @@ country_event = {
     desc = "AMATONGAQUESTIONMABHUDU"
     picture = "amatonga_map"
 	fire_only_once = yes
-	
+
 	is_triggered_only = yes
 
     option = {
@@ -47253,7 +47253,7 @@ country_event = {
     desc = "$FROMCOUNTRY$ has refused to become our protectorate, citing that they are already powerful enough to fend out an invasion."
     picture = "amatonga_map"
 	fire_only_once = yes
-	
+
 	is_triggered_only = yes
 
     option = {
@@ -47289,7 +47289,7 @@ country_event = {
     desc = "$FROMCOUNTRY$ has accepted to become our protectorate."
     picture = "amatonga_map"
 	fire_only_once = yes
-	
+
 	is_triggered_only = yes
 
     option = {
@@ -47306,7 +47306,7 @@ country_event = {
     desc = "$FROMCOUNTRY$ has accepted to become our protectorate."
     picture = "amatonga_map"
 	fire_only_once = yes
-	
+
 	is_triggered_only = yes
 
     option = {
@@ -47324,7 +47324,7 @@ country_event = {
     desc = "$FROMCOUNTRY$ has accepted to become our protectorate."
     picture = "amatonga_map"
 	fire_only_once = yes
-	
+
 	is_triggered_only = yes
 
     option = {
@@ -47485,7 +47485,7 @@ country_event = {
     desc = "ZULUWARHELP"
     picture = "dinuzulu_battle"
 	fire_only_once = yes
-	
+
 	is_triggered_only = yes
 
     option = {
@@ -47519,7 +47519,7 @@ country_event = {
     desc = "Thanks to $FROMCOUNTRY$'s support, we can now finish up the Mandlakazi menace. "
     picture = "dinuzulu_battle"
 	fire_only_once = yes
-	
+
 	is_triggered_only = yes
 
     option = {
@@ -47635,7 +47635,7 @@ country_event = {
     desc = "NOHELPZULUBOERQUESTION"
     picture = "dinuzulu_battle"
 	fire_only_once = yes
-	
+
 	is_triggered_only = yes
 
     option = {
@@ -47661,7 +47661,7 @@ country_event = {
     desc = "TRNEXPLAINCIVILWARNTHOUSAND"
     picture = "dinuzulu_battle"
 	fire_only_once = yes
-	
+
 	is_triggered_only = yes
 
     option = {
@@ -47688,7 +47688,7 @@ country_event = {
     desc = "The Boers have also refused to help us, and we have no other way to recover our land but to fight now."
     picture = "dinuzulu_battle"
 	fire_only_once = yes
-	
+
 	is_triggered_only = yes
 
     option = {
@@ -47704,7 +47704,7 @@ country_event = {
     desc = "Transvaal has chosen to send 600 Boers and Germans leaded by Louis Botha to help us win against the Mandlakazi."
     picture = "dinuzulu_battle"
 	fire_only_once = yes
-	
+
 	is_triggered_only = yes
 
     option = {
@@ -47874,7 +47874,7 @@ country_event = {
 		year = 1884
 		tag = ZUL
 		month = 6
-		NOT = { 
+		NOT = {
 			has_global_flag = british_support
 			has_global_flag = boer_support
 		}
@@ -48931,7 +48931,7 @@ country_event = {
     }
 
     mean_time_to_happen = { days = 1 }
-	
+
 	immediate = {
 		set_global_flag = gwiriko_not_feeling_good
 		kill_leader = "Dyori Wattara"
@@ -49037,7 +49037,7 @@ country_event = {
 
     option = {
         name = "Keep Tehini."
-		1898 = { add_core = THIS secede_province = THIS } 
+		1898 = { add_core = THIS secede_province = THIS }
 		ai_chance = {
 			factor = 1
 		}
@@ -49216,7 +49216,7 @@ country_event = {
     }
 
     mean_time_to_happen = { days = 1 }
-	
+
 	immediate = {
 		kill_leader = "Moru Wattara"
         any_owned = {
@@ -49323,8 +49323,8 @@ country_event = {
 
     option = {
         name = "Keep Banfora."
-		1898 = { add_core = THIS secede_province = THIS } 
-		3972 = { add_core = THIS secede_province = THIS } 
+		1898 = { add_core = THIS secede_province = THIS }
+		3972 = { add_core = THIS secede_province = THIS }
 		ai_chance = {
 			factor = 1
 		}
@@ -49358,9 +49358,9 @@ country_event = {
     }
 
     mean_time_to_happen = { days = 1 }
-	
+
 	immediate = { set_global_flag = undi_is_real }
-	
+
     option = {
         name = "We must defeat this revolt!"
 		prestige = 3
@@ -49465,7 +49465,7 @@ country_event = {
     }
 
     mean_time_to_happen = { days = 1 }
-	
+
     option = {
         name = "The conversions must continue!"
 		random_owned = {
@@ -49607,7 +49607,7 @@ country_event = {
     }
 
     mean_time_to_happen = { days = 1 }
-	
+
     option = {
         name = "We must hold."
 		prestige = -5
@@ -49640,7 +49640,7 @@ country_event = {
     picture = "Administration"
     fire_only_once = yes
 	is_triggered_only = yes
-	
+
     option = {
         name = "Great!"
 		TUR = { relation = { who = BDN value = -150 } diplomatic_influence = { who = BDN value = -400 } }
@@ -49663,7 +49663,7 @@ country_event = {
     }
 
     mean_time_to_happen = { days = 1 }
-	
+
     option = {
         name = "All of Tumbukaland will be conquered at last."
 		prestige = 2
@@ -49709,7 +49709,7 @@ country_event = {
     picture = "ngunivsnguni"
     fire_only_once = yes
 	is_triggered_only = yes
-	
+
     option = {
         name = "We have to stop these treacherous acts. §RDeclare war on $FROMCOUNTRY$§W"
 		war = {
@@ -49747,7 +49747,7 @@ country_event = {
     picture = "ngunivsnguni"
     fire_only_once = yes
 	is_triggered_only = yes
-	
+
     option = {
         name = "We have to stop these treacherous acts. Mobilize."
 		prestige = 3
@@ -49808,7 +49808,7 @@ country_event = {
     picture = "ngunivsnguni"
     fire_only_once = yes
 	is_triggered_only = yes
-	
+
     option = {
         name = "Great!"
 		prestige = 5
@@ -49845,7 +49845,7 @@ country_event = {
     }
 
     mean_time_to_happen = { days = 1 }
-	
+
     option = {
         name = "Time to raid the Bemba further! §G(Gain 15,000¤)§W"
 		prestige = 2
@@ -49873,7 +49873,7 @@ country_event = {
     picture = "bembamap"
     fire_only_once = yes
 	is_triggered_only = yes
-	
+
     option = {
         name = "We have to teach them which is their place!"
 		prestige = 2
@@ -49902,7 +49902,7 @@ country_event = {
     picture = "catalan_atlas"
     fire_only_once = yes
 	is_triggered_only = yes
-	
+
     option = {
         name = "We must bring Kumbi Saleh to its former glory! §G(Pay 45,000¤)§W"
 		random_owned = {
@@ -49941,7 +49941,7 @@ country_event = {
     picture = "Administration"
     fire_only_once = yes
 	is_triggered_only = yes
-	
+
     option = {
         name = "Great!"
 		1087 = {
@@ -49960,7 +49960,7 @@ country_event = {
     picture = "Administration"
     fire_only_once = yes
 	is_triggered_only = yes
-	
+
     option = {
         name = "Will do!"
     }
@@ -49985,7 +49985,7 @@ country_event = {
     }
 
     mean_time_to_happen = { days = 1 }
-	
+
     option = {
         name = "Great!"
 		prestige = 5
@@ -50214,7 +50214,7 @@ country_event = {
     title = "Sohar Joins Us!"
     desc = "SOHARSTATEREMAINED"
     picture = "trucialomanmap"
-	
+
     fire_only_once = yes
 	is_triggered_only = yes
 
@@ -50670,7 +50670,7 @@ country_event = {
 		set_country_flag = hide_tooltip
 		random_owned = { limit = { owner = {
 		has_country_flag = hide_tooltip
-		}} owner = { 
+		}} owner = {
 		FRA = { country_event = 184825971 }
 		} }
 		clr_country_flag = hide_tooltip
